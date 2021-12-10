@@ -334,15 +334,13 @@ img {
     margin-top: 94px;
 }
 .company-icons-list {
-    display: inline-flex;
+   
 }
 .company-icons-item {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    display: inline-flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--backround-color-clients);
     margin-right: 30px;
