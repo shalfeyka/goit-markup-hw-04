@@ -130,6 +130,9 @@ p {
     fill: currentColor;
 
 }
+.social-links-list {
+    display: inline-flex;
+}
 .social-links-item:last-child {
     margin-right: 0;
 }
