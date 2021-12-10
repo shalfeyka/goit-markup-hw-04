@@ -139,7 +139,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-.social-links-list:hover {
+.social-links-item {
     background-color: var(--hover-collor-text);
 }
 .social-links-item:last-child {
@@ -331,6 +331,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 94px;
+    margin-bottom: 50px;
 }
 .company-icons-list {
     display: flex;
@@ -346,7 +347,7 @@ img {
     background-color: var(--backround-color-clients);
     margin-right: 30px;
 }
-..company-icons-item:last-child {
+.company-icons-item:last-child {
     margin-right: 0;
 }
 .company-links {
