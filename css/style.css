@@ -334,6 +334,8 @@ img {
     margin-top: 94px;
 }
 .company-icons-list {
+    display: flex;
+    justify-content: center;
    
 }
 .company-icons-item {
