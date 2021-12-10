@@ -97,8 +97,6 @@ p {
     display: inline-flex;
     width: 65px;
     height: 70px;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
     margin-bottom: 30px;
 }
