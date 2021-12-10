@@ -137,6 +137,7 @@ p {
 .social-links-list {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .social-links-list:hover {
     background-color: var(--hover-collor-text);
@@ -318,18 +319,6 @@ img {
     font-size: 16px;
     line-height: 1.19;
 }
-.social-links-list {
-    
-}
-.social-links-item {
-   
-}
-.social-links {
-
-}
-.social-links-icon{
-
-}
 .company-icons-list {
     display: inline-flex;
 }
@@ -340,6 +329,8 @@ img {
     width: 170px;
     height: 92px;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--backround-color-clients);
     margin-right: 30px;
 }
