@@ -332,7 +332,6 @@ img {
 }
 .company-icons-item {
     border: 1px solid #AFB1B8;
-    box-sizing: border-box;
     border-radius: 4px;
     width: 170px;
     height: 92px;
@@ -349,9 +348,13 @@ img {
 
 }
 .company-icon {
-
+    fill: currentColor;
 }
 /*footer*/
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
 .footer { 
     background: var(--background-color);
     padding-bottom: 60px;
