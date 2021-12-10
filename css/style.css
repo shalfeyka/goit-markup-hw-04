@@ -319,7 +319,7 @@ img {
     line-height: 1.19;
 }
 .social-links-list {
-    display: inline-flex;
+    
 }
 .social-links-item {
    
@@ -331,7 +331,7 @@ img {
 
 }
 .company-icons-list {
-
+    display: inline-flex;
 }
 .company-icons-item {
     border: 1px solid #AFB1B8;
