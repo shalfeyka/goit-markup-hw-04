@@ -131,7 +131,8 @@ p {
 
 }
 .social-links-list {
-    display: inline-flex;
+    display: flex;
+    
 }
 .social-links-item:last-child {
     margin-right: 0;
