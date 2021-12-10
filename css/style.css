@@ -140,7 +140,7 @@ p {
     align-items: center;
 }
 .social-links-item {
-    background-color: var(--hover-collor-text);
+    
 }
 .social-links-item:last-child {
     margin-right: 0;
