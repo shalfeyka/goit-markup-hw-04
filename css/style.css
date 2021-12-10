@@ -148,6 +148,9 @@ p {
 .social-links-icon {
     fill: currentColor;
 }
+.social-links-icon:hover {
+    color: var(--hover-collor-text);
+}
 
 .contacts-link-item:hover {
     color: #2196F3;
@@ -336,7 +339,7 @@ img {
 .company-icons-list {
     display: flex;
     justify-content: center;
-   
+    align-items: center;
 }
 .company-icons-item {
     border: 1px solid #AFB1B8;
