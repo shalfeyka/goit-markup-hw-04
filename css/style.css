@@ -92,6 +92,7 @@ p {
 .icon-contact {
     margin-right: 10px;
     fill: currentColor;
+    color: var(--color-text-header);
 }
 
 .contacts-link {
