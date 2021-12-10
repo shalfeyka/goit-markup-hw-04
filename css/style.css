@@ -351,6 +351,13 @@ img {
     fill: currentColor;
 }
 /*footer*/
+.title-footer {
+    color: var(--title-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
 .footer-icons {
     display: flex;
     justify-content: center;
