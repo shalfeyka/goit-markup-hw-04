@@ -6,6 +6,7 @@
     --footer-color-text: rgba(255, 255, 255, 0.6);
     --color-text: #212121;
     --color-text-header: #757575;
+    --backround-color-clients: #E5E5E5;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -317,7 +318,40 @@ img {
     font-size: 16px;
     line-height: 1.19;
 }
+.social-links-list {
+    display: inline-flex;
+}
+.social-links-item {
+   
+}
+.social-links {
 
+}
+.social-links-icon{
+
+}
+.company-icons-list {
+
+}
+.company-icons-item {
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    display: inline-flex;
+    background-color: var(--backround-color-clients);
+    margin-right: 30px;
+}
+..company-icons-item:last-child {
+    margin-right: 0;
+}
+.company-links {
+
+}
+.company-icon {
+
+}
 /*footer*/
 .footer { 
     background: var(--background-color);
