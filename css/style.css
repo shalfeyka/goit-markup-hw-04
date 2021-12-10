@@ -312,6 +312,11 @@ img {
     line-height: 1.19;
     margin-bottom: 10px;
 }
+.clients-container {
+    background-color: var(--title-color);
+    display: flex;
+    justify-content: center;
+}
 .team-text {
     color: var(--color-text-header);
     text-align: center;
@@ -326,6 +331,7 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 94px;
 }
 .company-icons-list {
     display: inline-flex;
