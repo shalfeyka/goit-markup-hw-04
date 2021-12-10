@@ -92,13 +92,18 @@ p {
 .icon-contact {
     margin-right: 10px;
     fill: currentColor;
-    color: var(--color-text-header);
 }
-
+.container-icon {
+    display: inline-flex;
+    width: 270px;
+    height: 120px;
+}
 .contacts-link {
     list-style-type: none;
     display: flex;
     margin-left: auto;
+    background-color: var(--background-team);
+    border-radius: 4px;
 }
 .contacts-link-item {
     color: var(--color-text-header);
