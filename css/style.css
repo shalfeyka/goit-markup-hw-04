@@ -132,7 +132,9 @@ p {
 }
 .social-links-list {
     display: flex;
-    
+}
+.social-links-list:hover {
+    background-color: var(--hover-collor-text);
 }
 .social-links-item:last-child {
     margin-right: 0;
