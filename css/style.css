@@ -314,8 +314,7 @@ img {
 }
 .clients-container {
     background-color: var(--title-color);
-    display: flex;
-    justify-content: center;
+
 }
 .team-text {
     color: var(--color-text-header);
