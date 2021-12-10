@@ -335,6 +335,7 @@ img {
 }
 .company-icons-list {
    display: flex;
+   justify-content: center;
 }
 .company-icons-item {
     border: 1px solid #AFB1B8;
