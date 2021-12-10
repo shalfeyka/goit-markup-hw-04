@@ -125,7 +125,17 @@ p {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.
+.social-links-item {
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+.social-links-item:last-child {
+    margin-right: 0;
+}
+.social-links-icon {
+    fill: currentColor;
+}
 
 .contacts-link-item:hover {
     color: #2196F3;
