@@ -181,6 +181,7 @@ p {
     url('../images/фон\ \(1\).jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .title-main {
     color: var(--title-color);
