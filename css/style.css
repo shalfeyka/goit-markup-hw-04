@@ -360,6 +360,9 @@ img {
     fill: currentColor;
 }
 /*footer*/
+.list-icons {
+    display: inline-flex;
+}
 .title-footer {
     color: var(--title-color);
     font-size: 14px;
