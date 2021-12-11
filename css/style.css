@@ -19,6 +19,9 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     }
+.section {
+    padding: 94px 0;
+    }
 .header-container {
     display: flex;
     align-items: center;
@@ -95,8 +98,8 @@ p {
     fill: currentColor;
 }
 .container-icon {
-    display: inline-flex;
-    box-sizing: 270px 120px;
+    display: flex;
+    height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
     align-items: center;
@@ -104,14 +107,13 @@ p {
     background-color: var(--background-team);
 }
 .icon-main {
-    width: 65px;
+    width: 70px;
     height: 70px;
 }
 .contacts-link {
     list-style-type: none;
     display: flex;
     margin-left: auto;
-    background-color: var(--background-team);
     border-radius: 4px;
 }
 .contacts-link-item {
@@ -129,19 +131,16 @@ p {
 .social-links-item {
     margin-right: 10px;
     fill: currentColor;
-    margin-top: 16px;
     width: 44px;
     height: 44px;
-    margin-bottom: 30px;
 }
 .social-links-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
-.social-links-item {
-    
-}
+
 .social-links-item:last-child {
     margin-right: 0;
 }
@@ -150,6 +149,13 @@ p {
 }
 .social-links-icon:hover {
     color: var(--hover-collor-text);
+}
+.social-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts-link-item:hover {
@@ -229,7 +235,8 @@ p {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    margin-right: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .advantage-text {
     color: var(--color-text-header);
@@ -268,9 +275,7 @@ p {
 .work-list-item:last-child {
     margin-right: 0;
 }
-.section {
-    padding: 94px 0;
-}
+
 img {
     display: block;
     height: auto;
@@ -302,6 +307,7 @@ img {
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--title-color);
 }
 .team-list-item:last-child {
     margin-right: 0;
@@ -342,19 +348,18 @@ img {
     align-items: center;
 }
 .company-icons-item {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
     width: 170px;
     height: 92px;
-    align-items: center;
-    background-color: var(--backround-color-clients);
     margin-right: 30px;
 }
 .company-icons-item:last-child {
     margin-right: 0;
 }
 .company-links {
-
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
 }
 .company-icon {
     fill: currentColor;
@@ -371,9 +376,10 @@ img {
     font-weight: 700;
 }
 .footer-icons {
+    
+}
+.footer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .footer { 
     background: var(--background-color);
