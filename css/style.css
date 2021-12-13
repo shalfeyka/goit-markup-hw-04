@@ -391,7 +391,9 @@ img {
 }
 .footer-icons {
 
-
+}
+.social-icon-footer {
+    fill: currentColor;
 }
 .footer-container {
     display: flex;
@@ -435,6 +437,13 @@ img {
 }
 .logo-half-footer {
     color: var(--title-color);
+}
+.social-link-footer {
+    border-radius: 50%;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
 }
 
 /*portfolio*/
