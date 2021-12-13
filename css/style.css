@@ -384,6 +384,7 @@ img {
     letter-spacing: 0.03em;
     font-weight: 700;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .footer-adress {
     margin-right: 70px;
