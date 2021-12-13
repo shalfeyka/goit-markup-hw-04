@@ -163,6 +163,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    color: var(--logo-clients);
 }
 
 .contacts-link-item:hover {
