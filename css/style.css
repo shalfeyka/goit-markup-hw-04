@@ -87,7 +87,8 @@ p {
      text-decoration: none;
      color: var(--color-text);
  }
- .nav-items-link:hover {
+ .nav-items-link:hover,
+ .nav-items-link:focus {
     color: var(--hover-collor-text);
  } 
  .nav-items-list:last-child {
@@ -147,7 +148,9 @@ p {
 .social-links-icon {
     fill: currentColor;
 }
-.social-links-icon:hover {
+.social-links-icon:hover,
+.social-links-icon:focus
+{
     color: var(--hover-collor-text);
 }
 .social-links {
@@ -462,7 +465,9 @@ img {
     margin-right: 0;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus
+ {
     color: var(--title-color);
     background-color: var(--hover-collor-text);
 }
