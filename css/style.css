@@ -168,7 +168,8 @@ p {
 }
 .social-links:hover,
 .social-links:focus {
-    background-color: var(--hover-collor-text);
+    background-color: var(--title-color);
+    color: var(--hover-collor-text);
 }
 
 .contacts-link-item:hover {
