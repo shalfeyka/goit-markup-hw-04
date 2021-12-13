@@ -117,6 +117,7 @@ p {
     display: flex;
     margin-left: auto;
     border-radius: 4px;
+    fill: currentColor;
 }
 .contacts-link-item {
     color: var(--color-text-header);
