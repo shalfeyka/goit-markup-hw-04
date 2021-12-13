@@ -166,6 +166,10 @@ p {
     border-radius: 50%;
     color: var(--logo-clients);
 }
+.social-links:hover,
+.social-links:focus {
+    background-color: var(--hover-collor-text);
+}
 
 .contacts-link-item:hover {
     color: #2196F3;
