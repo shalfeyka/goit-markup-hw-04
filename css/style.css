@@ -97,6 +97,7 @@ p {
 .icon-contact {
     margin-right: 10px;
     fill: currentColor;
+   
 }
 .container-icon {
     display: flex;
@@ -128,6 +129,7 @@ p {
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
+    
 }
 .social-links-item {
     margin-right: 10px;
