@@ -456,6 +456,12 @@ img {
     width: 44px;
     height: 44px;
 }
+.item-icons {
+    margin-right: 10px;
+}
+.item-icons:last-child {
+    margin-right: 0;
+}
 
 /*portfolio*/
 
