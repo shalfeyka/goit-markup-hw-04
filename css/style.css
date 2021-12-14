@@ -138,9 +138,7 @@ p {
 }
 .social-links-item {
     margin-right: 10px;
-    fill: currentColor;
-    width: 44px;
-    height: 44px;
+ 
 }
 .social-links-list {
     display: flex;
@@ -155,14 +153,9 @@ p {
 .social-links-icon {
     fill: currentColor;
 }
-.social-links-icon:hover,
-.social-links-icon:focus
-{
-    color: var(--hover-collor-text);
-}
 .social-links {
-    width: 100%;
-    height: 100%;
+    width: 44px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,8 +164,8 @@ p {
 }
 .social-links:hover,
 .social-links:focus {
-    background-color: var(--title-color);
-    color: var(--hover-collor-text);
+    background-color: var(--hover-collor-text);
+    color: var(--title-color);
 }
 
 .contacts-link-item:hover {
@@ -225,6 +218,12 @@ p {
     padding-right: 32px;
     padding-left: 32px;
     border: transparent;
+    border-radius: 4px;
+}
+.button:hover, 
+.button:focus {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .advantage-item {
