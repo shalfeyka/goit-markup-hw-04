@@ -165,7 +165,7 @@ p {
 .social-links:hover,
 .social-links:focus {
     background-color: var(--hover-collor-text);
-    color: var(--title-color);
+    color:  var(--title-color);
 }
 
 .contacts-link-item:hover {
@@ -519,6 +519,15 @@ img {
 }
 .gallery-container{
     padding: 20px 24px; 
+}
+.link-block {
+    display: block;
+}
+.link-block:hover {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .gallery-title {
     color: var(--color-text);
